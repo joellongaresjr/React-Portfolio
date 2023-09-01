@@ -98,13 +98,7 @@ const Contact = () => {
         )}
 
         <div className="mt-5 mb-5">
-          <button
-            data-testid="button"
-            className="btn btn-outline-dark"
-            type="submit"
-          >
-            Submit
-          </button>
+          <button data-testid="button" className="btn btn-outline-dark" type="submit">Submit</button>
         </div>
       </form>
     );
