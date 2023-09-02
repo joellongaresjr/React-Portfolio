@@ -1,7 +1,11 @@
 function ProjectCard({ project }) {
   return (
     <div className="bg-white border-2 border-[#FCB97D] rounded px-8 pt-6 pb-8 mb-4">
-      <img src={project.img} alt={project.title} className="w-full h-auto" />
+      <img
+        src={project.img}
+        alt={project.title}
+        className="w-full max-h-36 h-auto"
+      />
       <h3 className="text-xl font-semibold mt-2">{project.title}</h3>
       <div className="mt-4">
         <a
