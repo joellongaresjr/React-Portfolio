@@ -6,6 +6,7 @@ import NoteQuest from "../assets/images/NoteQuest.png"
 import CatCalendar from "../assets/images/CatCalendar.png"
 import AvatarAng from "../assets/images/AvatarAng.png"
 import NinjaQuiz from "../assets/images/Ninja-Quiz.png"
+import LogoMarketPlace from  "../assets/images/LOGO MARKETPLACE.png"
 
 const Portfolio = () => {
   const projects = [
@@ -51,6 +52,13 @@ const Portfolio = () => {
       deployedUrl: "https://joellongaresjr.github.io/Ninja-Quiz/",
       repoUrl: "https://github.com/joellongaresjr/Ninja-Quiz",
     },
+    {
+      id: 7,
+      title: "Logo-Marketplace",
+      img: LogoMarketPlace,
+      deployedUrl: "https://logo-marketplace-f9aad311ca28.herokuapp.com/",
+      repoUrl: "https://github.com/joellongaresjr/Logo-Marketplace"
+    }
 
   ];
 
